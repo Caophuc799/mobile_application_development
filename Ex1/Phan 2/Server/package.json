@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/Caophuc799/cpwebsedistance#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "google-distance": "^1.0.1",
+    "google-distance-matrix": "^1.1.1",
     "heroku": "^0.2.0"
   }
 }

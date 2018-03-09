@@ -9,7 +9,7 @@
 
     <TextView
         android:layout_margin="10dp"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tọa độ điểm bắt đầu:"
@@ -20,22 +20,22 @@
 
     <EditText
         android:id="@+id/editvido1"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:textSize="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Vi độ"/>
     <EditText
         android:id="@+id/editkinhdo1"
-        android:layout_margin="10dp"
-        android:textSize="10dp"
+        android:layout_margin="5dp"
+        android:textSize="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Kinh độ"/>
     <TextView
 
         android:layout_margin="10dp"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tọa độ điểm kết thúc:"
@@ -46,15 +46,17 @@
 
     <EditText
 
+        android:textSize="15dp"
         android:id="@+id/editvido2"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Vi độ"/>
     <EditText
 
+        android:textSize="15dp"
         android:id="@+id/editkinhdo2"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Kinh độ"/>
@@ -66,7 +68,7 @@
         android:text="Tìm khoảng cách"/>
     <TextView
         android:textSize="15dp"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Khoảng cách hai vị trí:"/>
