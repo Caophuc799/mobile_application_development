@@ -1,15 +1,25 @@
 {
-  "name": "server",
+  "name": "caocao",
   "version": "1.0.0",
-  "description": "App caculate distance two point",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caophuc799/cpwebsedistance.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caophuc799/cpwebsedistance/issues"
+  },
+  "homepage": "https://github.com/Caophuc799/cpwebsedistance#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "google-distance": "^1.0.1"
+    "google-distance": "^1.0.1",
+    "heroku": "^0.2.0"
   }
 }

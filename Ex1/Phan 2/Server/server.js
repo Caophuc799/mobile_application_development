@@ -37,5 +37,6 @@ app.get('/glocation/a1/:origin/a2/:destination',(req,res)=>{
     })
 });
 
+app.use(express.static('public'));
 
-app.listen(3000, () => console.log('Web service run in port 3000!'))
+app.listen(process.env.PORT||3000, () => console.log('Web service run in port 3000!'))
