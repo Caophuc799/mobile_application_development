@@ -10,11 +10,26 @@ app.post('/location',(req,res)=>{
     distance.get({origin, destination}, function (err, distances) {
         if (!err){
             console.log(distances);
-            res.status(200).send(distances);
+            res.status(200).send(
+                {
+                    "success": true,
+                    "error_code": null,
+                    "message": 'Successfully get distance data!',
+                    "data": distances
+                }   
+        );
          
         }else{
             console.log('Invalid!');
-            res.status(400).send("Invalid!");
+            res.status(400).send(
+                {
+                    "success": false,
+                    "error_code": 3,
+                    "message": 'Invalid data!',
+                    "data": null
+                } 
+
+            );
            
         }
     })
@@ -27,11 +42,26 @@ app.get('/glocation/a1/:origin/a2/:destination',(req,res)=>{
     distance.get({origin, destination}, function (err, distances) {
         if (!err){
             console.log(distances);
-            res.status(200).send(distances);
+            res.status(200).send(
+                {
+                    "success": true,
+                    "error_code": null,
+                    "message": 'Successfully get distance data!',
+                    "data": distances
+                }   
+        );
          
         }else{
             console.log('Invalid!');
-            res.status(400).send("Invalid!");
+            res.status(400).send(
+                {
+                    "success": false,
+                    "error_code": 3,
+                    "message": 'Invalid data!',
+                    "data": null
+                } 
+
+            );
            
         }
     })
