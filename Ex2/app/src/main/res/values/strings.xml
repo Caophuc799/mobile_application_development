@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Convert Money</string>
+
+    <string-array name="money_arrays">
+        <item name="VND">VND</item>
+        <item name="USD">USD</item>
+        <item name="EUR">EUR</item>
+
+    </string-array>
+</resources>
